@@ -4,3 +4,53 @@
     font-size: 16px;
     
 }
+body {
+
+}
+
+header {
+    width: 1200px;
+    background-color: #4A628A;
+}
+.encavezado {
+    display: flex;
+    background-color: #FFF;
+    justify-content: space-around;
+    align-items: center;
+}
+.titulo {
+    font-weight: 700;
+    font-size: 50px;
+}
+nav {
+    
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.relative-box {
+    position: relative;
+    left: 30px;
+    top: 20px;
+    background-color: #f0f0f0;
+    width: 200px;
+    height: 100px;
+    }
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container {
+    
+    background-color: aquamarine;
+}

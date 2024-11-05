@@ -3,27 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Front_TT_2C2024/HTML/CSS/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
     <title>Cartera de inversiones</title>
+    
 </head>
 <body>
     <header>
         <!-- Aca estamos dentro del header! -->
+        <div class="encavezado">
         <img src="img/42110366.jpg" alt="logo" height="50">
-        <h1>Bienvenidos a Cartera de inversiones</h1>
+        <h1 class="titulo">Cartera de inversiones</h1>
+        </div>
         <h2>Este proyecto esta orientado al seguimiento de tu porfolio</h2>
     </header>
     
     <nav>
         <!-- Aca estamos dentro del nav! -->
          <ul>
-            <li>Inicio</li>
+            <li><a href="/index.html">Inicio</a></li>
             <li>Activos</li>
             <li>menu</li>
-            <li>Contacto</li>
+            <li><a href="/contacto.html">Contacto</a> </li>
          </ul>
     </nav>
     <main>
+        <h1>Esto esta en poppins</h1>
+        <div>
+            <div class="relative-box">
+                <h2>Este contenedor tiene relative-box</h2>
+            </div>
+        </div>
         <!-- Aca estamos dentro del main! -->
         <h3>Mi porfolio de inversiones</h3>
         <table>
@@ -52,8 +64,22 @@
     </main>
     <footer>
         <!-- Aca estamos dentro del footer! -->
-        <p>Este es el pie de página con la información de contacto.</p>
-        <a href="mailto:info@ejemplo.com">Enviar correo</a>
+         <div class="footer-container left">
+            <h2>Asistensia</h2>
+            <p>CEDEARS</p>
+            <p>Bonos</p>
+            <p>Acciones</p>
+         </div>
+         <div class="footer-container center">
+
+         </div>
+         <div class="footer-container right">
+            <p>Codigo Etico</p>
+            <p>Novedades</p>
+            <p><a href="mailto:info@ejemplo.com">Enviar correo</a></p>
+         </div>
+        
+        
     </footer>
 </body>
 </html>
