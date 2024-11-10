@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>Cartera de inversiones</title>
+    
 </head>
 <body>
     <header>
         <!-- Aca estamos dentro del header! -->
-        <img src="img/42110366.jpg" alt="logo" height="50">
-        <h1>Bienvenidos a Cartera de inversiones</h1>
-        <h2>Este proyecto esta orientado al seguimiento de tu porfolio</h2>
+        <div class="encavezado">
+        <img src="img/stock-earnings.png" alt="logo" height="50">
+        <h1 class="titulo">Cartera de inversiones</h1>
+        </div>
+        
     </header>
     
     <nav>
@@ -22,11 +29,17 @@
             <li><a href="/contacto.html">Contacto</a> </li>
          </ul>
     </nav>
+
+    <main>
+        <div class="formulario">
     <form action="https://formspree.io/f/xqakalje" method="POST">
+        <h1>Formulario de Contacto</h1>
         <input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre">
         <input type="mail" name="mail" id="mail" placeholder="Escriba su e-mail">
         <textarea name="mensaje" id="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje"></textarea>
         <button type="submit">Enviar</button>
     </form>
+</div>
+</main>
 </body>
 </html>
