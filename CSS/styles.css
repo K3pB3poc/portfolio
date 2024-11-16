@@ -110,3 +110,34 @@ form{
     flex-direction: column;
 
 }
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+table {
+    background-color: white;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+    font-size: smaller;
+}
+
+th {
+    background-color: #4A628A;
+    color: white;
+    font-size: small;
+}
+
+tr:nth-child(even) {
+    background-color: #B9E5E8;
+}
