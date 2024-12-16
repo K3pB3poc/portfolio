@@ -6,11 +6,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <title>Cartera de inversiones</title>
     
 </head>
 <body>
+
     <header>
         <!-- Aca estamos dentro del header! -->
         <div class="encavezado">
@@ -139,7 +141,23 @@
             <track src="" kind="subtitles" srclang="es"
             label="Español">
             </video>
+        
+            
     </main>
+    <div class="overlay">
+                <div class="popup">
+                    <div class="formulario">
+                        <a href="#" id="btn-popup-close" class="btn-popup-close"><i class="fas fa-times"></i> </a>
+                        <form action="https://formspree.io/f/xqakalje" method="POST">
+                            <h1>Formulario de Contacto</h1>
+                            <input type="text" class="input-form" name="nombre" id="nombre" placeholder="Escriba su nombre">
+                            <input type="mail" class="input-form" name="mail" id="mail" placeholder="Escriba su e-mail">
+                            <textarea class="imput-text" name="mensaje" id="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje"></textarea>
+                            <button type="submit" class="btn-submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>  
+    </div>
     
     <footer>
         <!-- Aca estamos dentro del footer! -->
@@ -156,9 +174,10 @@
             <p>Codigo Etico</p>
             <p>Novedades</p>
             <p><a href="mailto:info@ejemplo.com">Enviar correo</a></p>
-         </div>
+        
         
         
     </footer>
+
 </body>
 </html>

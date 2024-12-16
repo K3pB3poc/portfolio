@@ -1,6 +1,7 @@
 *{
    padding: 0;
    margin: 0;
+   box-sizing: border-box;
    text-decoration: none;
 
     
@@ -29,6 +30,7 @@ body {
 nav {
     background: -webkit-linear-gradient(left, #1C6EA4 0%, #7AB2D3 50%, #4A628A 100%);
     height: 40px;
+    font-size: larger;
 }
 ul {
     display: flex;
@@ -92,24 +94,59 @@ li {
 .negativa {
     color: red;
 }
-
-.formulario {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    width: 600px;
-    height: 600px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: aqua;
-}
-form{
+/* FORMULARIO */
+.overlay{
+    background: rgb(0, 0, 0, .6);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
+}
+.popup{
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 5px 0px rgb(0, 0, 0, 0.6) ;
+    border-radius: 3px;
+    padding: 20px;
+    text-align: center;
+    width: 600px;
+    
+
+
 
 }
+.formulario{
+   
+}
+.btn-popup-close {
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    text-align: right;
+}
+.input-form {
+  width: 70%;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.imput-text{
+    width: 70%;
+    margin-bottom: 20px;
+    height: 100px;
+
+}
+.btn-submit{
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+
+}
+
 main {
     margin-left: auto;
     margin-right: auto;
