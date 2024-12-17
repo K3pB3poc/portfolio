@@ -105,6 +105,10 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    visibility: hidden;
+}
+.overlay.active{
+    visibility: visible;
 }
 .popup{
     background-color: whitesmoke;
@@ -119,32 +123,47 @@ li {
 
 }
 .formulario{
-   
+   padding: 20px;
 }
 .btn-popup-close {
     font-size: 16px;
     line-height: 16px;
     display: block;
     text-align: right;
+    color: #4A628A;
 }
 .input-form {
-  width: 70%;
+  width: 100%;
+  margin-top: 10px;
   margin-bottom: 10px;
   height: 40px;
+  
 }
 
 .imput-text{
-    width: 70%;
+    width: 100%;
+    margin-top: 10px;
     margin-bottom: 20px;
     height: 100px;
-
+    
 }
+
 .btn-submit{
     padding: 0 20px;
     height: 40px;
     line-height: 40px;
     border: none;
+    color: white;
+    background-color: #4A628A;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s ease all;
 
+}
+
+.btn-submit:hover{
+    background-color: rgba(72, 109, 158, 0.3);
 }
 
 main {

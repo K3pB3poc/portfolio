@@ -28,7 +28,7 @@
             <li><a href="/index.html">Inicio</a></li>
             <li>Activos</li>
             <li>Cotizaciones</li>
-            <li><a href="/contacto.html">Contacto</a> </li>
+            <li><a href="#" id="btn-popup-open">Contacto</a> </li>
          </ul>
     </nav>
     <div class="banner">
@@ -144,16 +144,16 @@
         
             
     </main>
-    <div class="overlay">
-                <div class="popup">
-                    <div class="formulario">
+    <div class="overlay " id="overlay">
+                <div class="popup" id="popup">
+                    <div class="formulario" id="formulario">
                         <a href="#" id="btn-popup-close" class="btn-popup-close"><i class="fas fa-times"></i> </a>
                         <form action="https://formspree.io/f/xqakalje" method="POST">
                             <h1>Formulario de Contacto</h1>
                             <input type="text" class="input-form" name="nombre" id="nombre" placeholder="Escriba su nombre">
                             <input type="mail" class="input-form" name="mail" id="mail" placeholder="Escriba su e-mail">
                             <textarea class="imput-text" name="mensaje" id="mensaje" rows="4" cols="50" placeholder="Escribe tu mensaje"></textarea>
-                            <button type="submit" class="btn-submit">Enviar</button>
+                            <button type="submit" class="btn-submit" id="btn-submit">Enviar</button>
                         </form>
                     </div>
                 </div>  
@@ -178,6 +178,6 @@
         
         
     </footer>
-
+    <script src="script.js" ></script>
 </body>
 </html>
