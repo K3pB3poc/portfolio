@@ -16,8 +16,12 @@ body {
 }
 
 .encavezado {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 100px;
     display: flex;
     align-items: center;
+    position: relative;
     
 }
 .titulo {
@@ -30,8 +34,16 @@ body {
 nav {
     background: -webkit-linear-gradient(left, #1C6EA4 0%, #7AB2D3 50%, #4A628A 100%);
     height: 40px;
-    font-size: larger;
+    font-size: 16px;
 }
+nav a{
+    color: antiquewhite;
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+    
+}
+
 ul {
     display: flex;
     justify-content: space-around;
@@ -46,6 +58,8 @@ li {
 }
 
 .banner {
+    width: 100vw;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
