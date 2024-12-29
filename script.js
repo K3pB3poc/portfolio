@@ -34,8 +34,8 @@ const cargartoken = async() => {
                 <div class="tarjeta" id="tarjeta">
                     <h5>Ticker</h5>
                     <div class="tarjeta-name">${datos.ticker}</div>
-                    <div class="tarjeta-valor">$ ${datos.popularity}</div>
-                    <div class="tarjeta-var positiva">$ ${datos.vote_average}</div>
+                    <div class="tarjeta-valor">$ ${datos.price}</div>
+                    <div class="tarjeta-var positiva">$ ${datos.change_amount}</div>
                     </div>`;
                 // console.log(datos.ticker);
             });
